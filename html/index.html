@@ -9,6 +9,7 @@
 
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -25,7 +26,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
     <h3 class="w3-wide"><b>LOGO</b></h3>
   </div>
-
+<!-- 
   <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
     <a href="#" class="w3-bar-item w3-button">Toy-A</a>
     <a href="#" class="w3-bar-item w3-button">Toy-B</a>
@@ -33,13 +34,16 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <a href="#" class="w3-bar-item w3-button">Toy-D</a>
   </div>
 
- 
+  -->
 
 
-  <a href="#" class="w3-bar-item w3-button w3-padding">Main</a>  
-  <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
-  <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a>
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    <a href="#" class="w3-bar-item w3-button w3-padding">Main</a>  
+    <a href="index.html#toys" class="w3-bar-item w3-button w3-padding">Toys</a>  
+    <a href="index.html#legal"  class="w3-bar-item w3-button w3-padding">Legal</a>
+    <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
+  </div>
+
 </nav>
 
 <!-- Top menu on small screens -->
@@ -59,7 +63,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   
   <!-- Top header -->
   <header class="w3-container w3-xlarge">
-    <p class="w3-left">Toys You Like !</p>
+    <p class="w3-left">We have the toys You Like !</p>
 <!--     <p class="w3-right">
       <i class="fa fa-shopping-cart w3-margin-right"></i>
       <i class="fa fa-search"></i>
@@ -73,11 +77,11 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       <h1 class="w3-jumbo w3-hide-small" style="opacity: unset;">New arrivals</h1>
       <h1 class="w3-hide-large w3-hide-medium" style="opacity: unset;">New arrivals</h1>
       <h1 class="w3-hide-small" style="opacity: unset;">COLLECTION 2018</h1>
-      <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large" style="opacity: unset;">SHOP NOW</a></p>
+      <p><a href="#toys" class="w3-button w3-black w3-padding-large w3-large" style="opacity: unset;">SHOP NOW</a></p>
     </div>
   </div>
 
-  <div class="w3-container w3-text-grey" id="jeans">
+  <div class="w3-container w3-text-grey" id="toys">
     <p>8 items</p>
   </div>
 
@@ -89,40 +93,17 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
           <img src="../resource/toy1.jpg" style="width:100%">
           <span class="w3-tag w3-display-topleft">New</span>
           <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+            <button class="w3-button w3-black" id="toyType1"><a href="ToyA.html"> Browse </a> </button>
           </div>
         </div>
         <p>Toy A<br><b>$10.99</b></p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
-          <img src="../resource/toy1.jpg" style="width:100%">
+          <img src="../resource/toy2.jpg" style="width:100%">
           <span class="w3-tag w3-display-topleft">New</span>
           <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
-          </div>
-        </div>
-        <p>Toy A<br><b>$10.99</b></p>
-      </div>
-    </div>
-
-    <div class="w3-col l3 s6">
-      <div class="w3-container">
-        <div class="w3-display-container">
-          <img src="../resource/toy1.jpg" style="width:100%">
-          <span class="w3-tag w3-display-topleft">New</span>
-          <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
-          </div>
-        </div>
-        <p>Toy A<br><b>$10.99</b></p>
-      </div>
-      <div class="w3-container">
-        <div class="w3-display-container">
-          <img src="../resource/toy1.jpg" style="width:100%">
-          <span class="w3-tag w3-display-topleft">New</span>
-          <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+            <button class="w3-button w3-black">Browse </button>
           </div>
         </div>
         <p>Toy A<br><b>$10.99</b></p>
@@ -132,10 +113,33 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <div class="w3-display-container">
-          <img src="../resource/toy1.jpg" style="width:100%">
+          <img src="../resource/toy3.jpg" style="width:100%">
           <span class="w3-tag w3-display-topleft">New</span>
           <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+            <button class="w3-button w3-black">Browse </button>
+          </div>
+        </div>
+        <p>Toy A<br><b>$10.99</b></p>
+      </div>
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="../resource/toy4.jpg" style="width:100%">
+          <span class="w3-tag w3-display-topleft">New</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Browse </button>
+          </div>
+        </div>
+        <p>Toy A<br><b>$10.99</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="../resource/toy5.jpg" style="width:100%">
+          <span class="w3-tag w3-display-topleft">New</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Browse </button>
           </div>
         </div>
         <p>Toy A<br><b>$10.99</b></p>
@@ -143,15 +147,15 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       <div class="w3-container">
         <div class="w3-display-container">
         <div class="w3-display-container">
-          <img src="../resource/toy1.jpg" style="width:100%">
+          <img src="../resource/toy6.jpg" style="width:100%">
           <span class="w3-tag w3-display-topleft">New</span>
           <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+            <button class="w3-button w3-black">Browse </button>
           </div>
         </div>
           <span class="w3-tag w3-display-topleft">Sale</span>
           <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+            <button class="w3-button w3-black">Browse </button>
           </div>
         </div>
         <p>Toy A<br><b class="w3-text-red">$5.99</b></p>
@@ -161,20 +165,20 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <div class="w3-display-container">
-          <img src="../resource/toy1.jpg" style="width:100%">
+          <img src="../resource/toy7.jpg" style="width:100%">
           <span class="w3-tag w3-display-topleft">New</span>
           <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+            <button class="w3-button w3-black">Browse </button>
           </div>
         </div>
         <p>Toy A<br><b>$10.99</b></p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
-          <img src="../resource/toy1.jpg" style="width:100%">
+          <img src="../resource/toy8.jpg" style="width:100%">
           <span class="w3-tag w3-display-topleft">New</span>
           <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+            <button class="w3-button w3-black">Browse </button>
           </div>
         </div>
         <p>Toy A<br><b>$10.99</b></p>
@@ -183,11 +187,8 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   </div>
 
   <!-- Subscribe section -->
-  <div class="w3-container w3-black w3-padding-32">
-    <h1>Subscribe</h1>
-    <p>To get special offers:</p>
-    <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
-    <button type="button" class="w3-button w3-red w3-margin-bottom">Subscribe</button>
+  <div class="w3-container w3-black w3-padding-32" id="legal">
+    <h1>Your Company's Legal Information Goes here</h1>
   </div>
   
   <!-- Footer -->
@@ -207,21 +208,21 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
       <div class="w3-col s4">
         <h4>About</h4>
-        <p><a href="#">About us</a></p>
-        <p><a href="#">We're hiring</a></p>
-        <p><a href="#">Support</a></p>
-        <p><a href="#">Find store</a></p>
-        <p><a href="#">Shipment</a></p>
-        <p><a href="#">Payment</a></p>
-        <p><a href="#">Gift card</a></p>
-        <p><a href="#">Return</a></p>
-        <p><a href="#">Help</a></p>
+        <p><a href="#">Click-Link-1</a></p>
+        <p><a href="#">Click-Link-2</a></p>
+        <p><a href="#">Click-Link-3</a></p>
+        <p><a href="#">Click-Link-4</a></p>
+        <p><a href="#">Click-Link-5</a></p>
+        <p><a href="#">Click-Link-6</a></p>
+        <p><a href="#">Click-Link-7</a></p>
+        <p><a href="#">Click-Link-8</a></p>
+        <p><a href="#">Click-Link-9</a></p>
       </div>
 
       <div class="w3-col s4 w3-justify">
         <h4>Store</h4>
         <p><i class="fa fa-fw fa-map-marker"></i> Company Name</p>
-        <p><i class="fa fa-fw fa-phone"></i>0000000</p>
+        <p><i class="fa fa-fw fa-phone"></i> 0000000</p>
         <p><i class="fa fa-fw fa-envelope"></i> companyName@gmail.com</p>
         <h4>We accept</h4>
         <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
@@ -256,42 +257,6 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 </div>
 
 <script>
-// Accordion 
-function myAccFunc1() {
-    var x = document.getElementById("According1");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-
-function myAccFunc2() {
-    var x = document.getElementById("According2");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-
-function myAccFunc3() {
-    var x = document.getElementById("According3");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-
-function myAccFunc4() {
-    var x = document.getElementById("According4");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
 
 // Click on the "Jeans" link on page load to open the accordion for demo purposes
 document.getElementById("myBtn").click();
