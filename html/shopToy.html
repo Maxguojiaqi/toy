@@ -1,0 +1,99 @@
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<body>
+
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <h3 class="w3-wide"><b>LOGO</b></h3>
+  </div>
+
+  
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    <a href="#" class="w3-bar-item w3-button w3-padding">Main</a>  
+    <a href="index.html#toys" class="w3-bar-item w3-button w3-padding">Toys</a>  
+    <a href="index.html#legal"  class="w3-bar-item w3-button w3-padding">Legal</a>
+    <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
+  </div>
+
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">LOGO</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left">We have the toys You Like !</p>
+<!--     <p class="w3-right">
+      <i class="fa fa-shopping-cart w3-margin-right"></i>
+      <i class="fa fa-search"></i>
+    </p> -->
+  </header>
+
+
+
+  <div class="w3-display-container w3-container">
+    <img src="../resource/toy.jpg" alt="Jeans" style="width:100%">
+    <div class="w3-display-topleft w3-text-white" style="padding:24px 48px; background-color: forestgreen; opacity: 0.8">
+      <h1 class="w3-jumbo w3-hide-small" style="opacity: unset;">New arrivals</h1>
+      <h1 class="w3-hide-large w3-hide-medium" style="opacity: unset;">New arrivals</h1>
+      <h1 class="w3-hide-small" style="opacity: unset;">COLLECTION 2018</h1>
+      <p><a href="#toys" class="w3-button w3-black w3-padding-large w3-large" style="opacity: unset;">SHOP NOW</a></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <header class="header">
+<!--       <h3 class="header-logo">Simple Store</h3>
+      
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#0">Home</a></li>
+          <li><a href="#0">Products</a></li>
+          <li><a href="#0">Contact</a></li>
+        </ul>
+      </nav> -->
+    </header>
+    <link rel="stylesheet" href="../lib/css/shopCart.css">
+    
+    <div class="products">
+      
+   
+      
+    </div><!-- products -->
+    
+    <div class="shopping-cart" style="opacity: 0.8">
+      <div class="shopping-cart-head">
+        <span class="product-quantity">0</span> Product(s) in Cart
+      </div>
+      <ul class="shopping-cart-list">
+      </ul>
+      <div class="cart-buttons">
+        <a href="#0" class="button empty-cart-btn">Empty</a>
+        <a href="#0" class="button cart-checkout">Checkout - <span class="total-price">$0</span></a>
+      </div>
+    </div>
+  </div><!-- container -->
+</body>
+
+<script src="../lib/js/shopCart.js"></script>

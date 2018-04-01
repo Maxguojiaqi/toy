@@ -36,28 +36,21 @@ var ShoppingCart = (function($) {
       id: 3,
       name: "Macbook Air",
       description: "Kogi skateboard tattooed, whatever portland fingerstache coloring book mlkshk leggings flannel dreamcatcher.",
-      imageUrl: "../resource/toy4.jpg",
+      imageUrl: "http://www.icentar.me/mac/mbair/images/air.jpg",
       price: 999
     },
     {
       id: 4,
       name: "Macbook Air 2013",
       description: "Kogi skateboard tattooed, whatever portland fingerstache coloring book mlkshk leggings flannel dreamcatcher.",
-      imageUrl: "../resource/toy5.jpg",
+      imageUrl: "http://www.icentar.me/mac/mbair/images/air.jpg",
       price: 599
     },
     {
       id: 5,
       name: "Macbook Air 2012",
       description: "Kogi skateboard tattooed, whatever portland fingerstache coloring book mlkshk leggings flannel dreamcatcher.",
-      imageUrl: "../resource/toy6.jpg",
-      price: 499
-    },
-    {
-      id: 6,
-      name: "Macbook Air 2012",
-      description: "Kogi skateboard tattooed, whatever portland fingerstache coloring book mlkshk leggings flannel dreamcatcher.",
-      imageUrl: "../resource/toy6.jpg",
+      imageUrl: "http://www.icentar.me/mac/mbair/images/air.jpg",
       price: 499
     }
   ],
